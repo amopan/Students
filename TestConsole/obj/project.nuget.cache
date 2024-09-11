@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "C7dCwafPW/G89GN20Ce/iv2mJFs5XCrxC4nfxsetFk7wMteF9RGjzi4pVQOyTXrEVDe5YBhBv5PWSg77iUPD0Q==",
+  "success": true,
+  "projectFilePath": "D:\\College\\24-25\\Students\\TestConsole\\TestConsole.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://bitbucket.tassoev.local:8999/repository/Tasso.Orca/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}
