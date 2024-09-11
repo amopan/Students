@@ -2,4 +2,5 @@
 Console.WriteLine("Super home task!");
 var i=0;
 Console.WriteLine("i="+i);
+i++;
 
