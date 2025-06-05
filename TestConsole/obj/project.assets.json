@@ -8,36 +8,29 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\work\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\MSasha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\College\\24-25\\Students\\TestConsole\\TestConsole.csproj",
+      "projectUniqueName": "E:\\Temp\\Students\\TestConsole\\TestConsole.csproj",
       "projectName": "TestConsole",
-      "projectPath": "D:\\College\\24-25\\Students\\TestConsole\\TestConsole.csproj",
-      "packagesPath": "C:\\Users\\work\\.nuget\\packages\\",
-      "outputPath": "D:\\College\\24-25\\Students\\TestConsole\\obj\\",
+      "projectPath": "E:\\Temp\\Students\\TestConsole\\TestConsole.csproj",
+      "packagesPath": "C:\\Users\\MSasha\\.nuget\\packages\\",
+      "outputPath": "E:\\Temp\\Students\\TestConsole\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\work\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\MSasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\NugetLocal": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "http://bitbucket.tassoev.local:8999/repository/Tasso.Orca/": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nexus.tasso.net/repository/Tasso.Group/": {}
       },
       "frameworks": {
         "net8.0": {
@@ -49,11 +42,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -75,16 +63,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://bitbucket.tassoev.local:8999/repository/Tasso.Orca/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    }
-  ]
+  }
 }
