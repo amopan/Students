@@ -1,6 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Super home task!");
+﻿Console.WriteLine("Super demo project!");
 var i=0;
-Console.WriteLine("i="+i);
-i++;
+var iterations = 10;
+while (i < iterations)
+{
+    Console.WriteLine("i=" + i);
+    i++;
+}  
+
 
